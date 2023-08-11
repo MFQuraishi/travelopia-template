@@ -1,0 +1,19 @@
+@import "./../../assets/scss/variables.scss";
+
+.hero-banner-container {
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    background-image: url("./../../assets/images/hikinh-success.jpg");
+    background-position: center;
+    background-size: cover;
+
+    .hero-banner-top-layer {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background: radial-gradient(circle at top right, transparent 5%, $dark-background-less-opaque 75%);
+    }
+}
