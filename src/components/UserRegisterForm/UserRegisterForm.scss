@@ -1,0 +1,9 @@
+@import "./../../assets/scss/variables.scss";
+
+.form-base-plate {
+    width: 90%;
+    height: 90%;
+    background-color: $dark-foreground-less-opaque;
+    border-radius: 1em;
+    padding: 1em 1em;
+}

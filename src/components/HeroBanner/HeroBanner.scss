@@ -15,5 +15,13 @@
         left: 0;
         bottom: 0;
         background: radial-gradient(circle at top right, transparent 5%, $dark-background-less-opaque 75%);
+
+        .hero-banner-form-container {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
 }
