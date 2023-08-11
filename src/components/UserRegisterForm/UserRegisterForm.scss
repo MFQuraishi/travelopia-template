@@ -5,5 +5,50 @@
     height: 90%;
     background-color: $dark-foreground-less-opaque;
     border-radius: 1em;
-    padding: 1em 1em;
+    padding: 1.5em 1.5em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .form-base-heading {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 1.5em;
+    }
+
+    .form-dropdown-select {
+        width: 65%;
+        padding: 1em 1em;
+        margin-bottom: 1.5em;
+    }
+
+    .form-dropdown-legend-container {
+        width: 65%;
+        font-weight: bold;
+        margin-bottom: 0.5em;
+        .form-dropdown-legend {
+            text-align: left;
+        }
+    }
+
+    .form-button {
+        background-color: $dark-contrasty-dark;
+        font-size: 20px;
+        color: $dark-contrasty-2;
+        padding: 10px 60px;
+        border-radius: 5px;
+        margin: 10px 0px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+
+    .form-button:hover {
+        opacity: 0.8;
+    }
+
+    .form-button:active {
+        opacity: 0.9;
+    }
 }
