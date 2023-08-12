@@ -1,14 +1,15 @@
 @import "./../../assets/scss/variables.scss";
 
 .form-base-plate {
-    width: 45%;
-    height: 90%;
+    width: 55%;
+    max-height: 90%;
     background-color: $dark-foreground-less-opaque;
     border-radius: 1em;
     padding: 1.5em 1.5em;
     display: flex;
     align-items: center;
     flex-direction: column;
+    overflow: auto;
 
     .form-base-heading {
         font-size: 1.5em;
