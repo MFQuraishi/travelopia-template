@@ -1,3 +1,11 @@
+## Project info
+1. Create new enquiry form is present in the root path. Eg. http://localhost:3000/
+2. for the list of current path, we will have to go to **/admin**. link to admin is not provided for this page as it will be having admin specific data. Eg. http://localhost:3000/admin
+3. more data for an enquiry can be taken from **create my trip now**. (feature not included)
+4. In the admin section a CTA is there for viewing more details. (This feature is not included).
+   
+note: Some feature are not included because this project's aim was to look at the coding techniques and project structure. 
+
 ## Project setup/Integrations
 1. Typescript template used while bootstrapping the project using create-react-app
 2. SCSS added after project installation
