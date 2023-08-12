@@ -1,0 +1,90 @@
+@import "./../../assets/scss/variables.scss";
+
+.font-bold {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.bookings-list-master-container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    .bookings-list-container {
+        width: 40%;
+        height: 100%;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bookings-list-heading {
+        font-size: 2em;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+.enquiry-card-container {
+    width: 90%;
+    position: relative;
+    background-color: $dark-foreground-less-opaque;
+    margin: 2em 0em;
+    padding: 1em 1em;
+    border-radius: 0.5em;
+    
+    .enquiry-card-index-tag {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0.8em 0.8em;
+        background-color: $dark-contrasty-dark;
+        border-top-left-radius: 0.8em;
+        border-bottom-right-radius: 0.8em;
+    }
+
+    .enquiry-card-place-name {
+        margin-left: 1.8em;
+        font-weight: bold;
+        font-size: 1.25em;
+    }
+
+    .enquiry-card-travel-type {
+        margin-left: 2.1em;
+    }
+
+    .flex-space-between {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card-footer {
+        margin-top: 1em
+    }
+
+    .card-cta-container {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 1.25em;
+    }
+
+    .card-cta {
+        padding: 0.5em 1.5em;
+        background-color: $dark-contrasty-dark;
+        border: none;
+        outline: none;
+        border-radius: 0.5em;
+        color: $dark-contrasty-2;
+    }
+
+    .card-cta:hover {
+        opacity: 0.8;
+    }
+
+    .card-cta:active {
+        opacity: 0.9;
+    }
+}
