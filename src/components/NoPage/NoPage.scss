@@ -1,0 +1,11 @@
+@import "./../../assets/scss/variables.scss";
+
+.not-found-element {
+    background-color: $dark-foreground;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bolder;
+}

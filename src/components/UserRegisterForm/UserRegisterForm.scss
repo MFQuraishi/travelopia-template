@@ -1,7 +1,7 @@
 @import "./../../assets/scss/variables.scss";
 
 .form-base-plate {
-    width: 90%;
+    width: 45%;
     height: 90%;
     background-color: $dark-foreground-less-opaque;
     border-radius: 1em;
@@ -18,13 +18,13 @@
     }
 
     .form-dropdown-select {
-        width: 65%;
-        padding: 1em 1em;
+        width: 80%;
+        padding: 0.7em 1em;
         margin-bottom: 1.5em;
     }
 
     .form-dropdown-legend-container {
-        width: 65%;
+        width: 80%;
         font-weight: bold;
         margin-bottom: 0.5em;
         .form-dropdown-legend {

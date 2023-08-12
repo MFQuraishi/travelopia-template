@@ -1,17 +1,21 @@
-import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import './App.scss';
 import HeroBanner from './components/HeroBanner/HeroBanner';
+import NoPage from "./components/NoPage/NoPage";
+import Layout from "./components/Layout/Layout";
 
 function App() {
   return (
     <>
-      <div className='demo-top-bar'>
-        Navbar goes here
-      </div>
-      <HeroBanner/>
-      <div className='demo-content'>
-        Page Content goes here
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout/>}>
+            <Route index element={<HeroBanner/>} />
+            <Route path="*" element={<NoPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>);
 }
 
